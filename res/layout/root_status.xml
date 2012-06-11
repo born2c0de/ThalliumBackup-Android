@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:gravity="center"   
+    android:orientation="vertical" >
+    <LinearLayout
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content"    	    	
+        >
+    <TextView        
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:text="Su + BusyBox"
+        android:textAppearance="?android:attr/textAppearanceLarge" />	
+	<TextView
+        android:id="@+id/lblIsRooted"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:text="NOT FOUND"
+        android:textColor="#ff0000"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+	</LinearLayout>
+
+    <TextView        
+        android:layout_width="wrap_content"
+        android:layout_marginTop="10dip"    
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Thallium Backup requires a Rooted Phone with BusyBox installed." />
+
+	<LinearLayout
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_marginTop="50dip"
+        >
+    <TextView        
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:text="Root Access"
+        android:textAppearance="?android:attr/textAppearanceLarge" />	
+	<TextView
+        android:id="@+id/lblIsRootAccessGiven"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:text="DENIED"
+        android:textColor="#ff0000"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+	</LinearLayout>
+	<TextView        
+        android:layout_width="wrap_content"
+        android:layout_marginTop="10dip"    
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Thallium Backup requires Root Permissions to work. Enable Root Permissions in SuperUser and try again." />
+</LinearLayout>

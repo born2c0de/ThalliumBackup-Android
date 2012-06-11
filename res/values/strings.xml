@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Thallium Backup</string>
+    <string name="sdCardDirectory">ThalliumBackups</string>
+    <string-array name="arrRegions">
+        <item>United States</item>
+        <item>United States (Oregon)</item>
+        <item>United States (Northern California)</item>
+        <item>European Union (Ireland)</item>
+        <item>Asia-Pacific (Singapore)</item>
+        <item>Asia-Pacific (Tokyo)</item>
+        <item>South America (Sao Paulo)</item>
+    </string-array>
+</resources>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView        
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Save your local backups to the Cloud" />
+
+    <Button
+        android:id="@+id/btnBackupToCloud"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Backup to Cloud" />
+
+    <TextView        
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dip"
+        android:gravity="center"
+        android:text="Download your backups from the Cloud" />
+
+    <Button
+        android:id="@+id/btnDownloadFromCloud"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Download from Cloud" />
+
+    <TextView        
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dip"
+        android:gravity="center"
+        android:text="Delete ALL your Backups on the Cloud." />
+
+    <Button
+        android:id="@+id/btnDeleteAllOnCloud"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete Backups on the Cloud" />
+
+    <TextView        
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dip"
+        android:gravity="center"
+        android:text="Delete ALL your LOCAL content." />
+
+    <Button
+        android:id="@+id/btnDeleteLocalContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete All Local Content" />
+
+</LinearLayout>
